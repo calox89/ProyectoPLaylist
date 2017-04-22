@@ -1,0 +1,12 @@
+[0;1;32m●[0m mongodb.service - High-performance, schema-free document-oriented database
+   Loaded: loaded (/etc/systemd/system/mongodb.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since sáb 2017-04-22 09:30:45 PET; 2h 58min ago
+ Main PID: 964 (mongod)
+   CGroup: /system.slice/mongodb.service
+           └─964 /usr/bin/mongod --quiet --config /etc/mongod.conf
+
+abr 22 09:30:45 linux10 systemd[1]: Started High-performance, schema-free document-oriented database.
+abr 22 12:16:46 linux10 systemd[1]: Started High-performance, schema-free document-oriented database.
+abr 22 12:16:56 linux10 systemd[1]: Started High-performance, schema-free document-oriented database.
+abr 22 12:29:31 linux10 systemd[1]: Started High-performance, schema-free document-oriented database.
+[0;1;31mWarning:[0m mongodb.service changed on disk. Run 'systemctl daemon-reload' to reload units.
